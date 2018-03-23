@@ -15,7 +15,7 @@
                         <td>Threats:<br />
                             <ul>
                             <xsl:for-each select="threats/threat">
-                            <li><xsl:value-of select="." /></li>
+                            <li style="padding: 1%;"><xsl:value-of select="." /></li>
                             </xsl:for-each>
                             </ul>
                         </td>
