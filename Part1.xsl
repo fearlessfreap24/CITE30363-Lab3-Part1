@@ -3,6 +3,9 @@
     <xsl:template match="/">
         
         <html>
+            <head>
+                <title>Endangered Species</title>
+            </head>
             <body>
                 <xsl:for-each select="endangered_species/animal">
                     <xsl:sort select="name[@language='Latin']" />
